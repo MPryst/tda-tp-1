@@ -2,7 +2,7 @@ import sys
 import random 
 
 def params_invalidos():
-  print('Uso: python generador.py <cantidad de columnas> [hora max] [seed]')
+  print('Uso: python generador.py <cantidad de rivales> [hora max] [seed]')
   exit(1)
 
 def parsear_params():
